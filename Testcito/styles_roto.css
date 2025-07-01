@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main-body {
+  background-color: #192c63;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.main-body .wraper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-body .wraper .top-header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.main-body .wraper .top-header .navbar .logo-section .logo-text {
+  font-size: 2.5em;
+}
+.logo-text span {
+  color: rgb(10,165,165)
+  text-shadow 1px 1px 3px white;
+}
+
+.main-body .wraper .top-header .navbar .nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: 0.3s ease;
+}
+.main-body .wraper .top-header .navbar .nav-menu li .nav-menu a {
+  text-decoration: none
+  white
+}
+
+.main-ctn {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.misproyectos .projects-header {
+  text-align: center;
+}
+
+.foto-container img {
+  width: 100%;
+  border-radius: 10px
+  transition transform: 0.5s;
+}
+
+.boton {
+  background: #bb0b83;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.typing {
+  overflow: hidden;
+  border-right: 2px white;
+  animation: typing 2s steps(25);
+}
+
+@keyframes typing {
+  to {
+    width: 100%
+  }
+}
+
+.grid-container .project-card {
+  background-color: #233a7a;
+  padding: 1rem;
+  radius: 8px;
+  width: 300px
+}
+
+.img-top {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.enlaces {
+  display: flex
+  justify-content: space-between
+}
+
+.formulario {
+  max-width: 600px;
+  background: #f8f9fa;
+  padding: 2rem
+  border-radius: 10px;
+}
+
+.inpt {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inptt {
+  height: 100px;
+  width: 100%;
+}
+
+.submit .bt-submit {
+  background-color: blueviolet
+  color: #ffffff;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}

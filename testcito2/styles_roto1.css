@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main-bodyy {
+  background-color: #192c63;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.main-bodyy .wraper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-bodyy .wraper .top-header .nabar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.main-bodyy .wraper .top-header .nabar .logo-text {
+  font-size: 2.5em;
+}
+.main-bodyy .wraper .top-header .nabar .logo-text .logo-text span {
+  color: rgb(10,165,165)
+  text-shadow 1px 1px 3px white;
+}
+
+.main-bodyy .wraper .nav-menuu {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+}
+.main-bodyy .wraper .nav-menuu a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-bodyy .wraper .main-ctn {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 4rem
+}
+
+  
+.main-bodyy .wraper .main-ctn .foto-container img {
+  width: 15vw;
+  border-radius: 2rem;
+  transition: 0,5s;
+}
+
+.main-bodyy .wraper .main-ctn .biografia .boton {
+  background: #bb0b83;
+  color: white;
+  padding: 1rem;
+  border: 2rem;
+  cursor: pointer;
+}
+
+.typingg {
+  overflow: hidden;
+  border-right: 2px white;
+  animation: typing 2s steps(25);
+}
+@keyframes typing {
+  to {
+    width: 100%
+  }
+}
+
+.main-bodyy .wraper .misproyectos .projects-header .centered{
+  text-align: center;
+}
+
+.main-bodyy .wraper .grid-container  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+  .main-bodyy .wraper .grid-container .projectcard {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 0 auto;
+  height: 0 auto;
+
+}
+
+.img-top {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.enlaces {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formularioo {
+  gap: 2rem;
+  max-width: 600px;
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.inpt {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inptt {
+  height: 100px;
+  width: 100%;
+}
+
+.bt-submit {
+  background-color: #bb0b83;
+  color: #ffffff;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.main-bodyy .wraper .footer-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.main-bodyy .wraper .footer-section .footer-text p{
+  text-align: center;
+}
+.main-bodyy .wraper .footer-section .footer-text .redessociales a{
+text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.bg-secondary{
+    background-color: rgb(182, 182, 182) !important;
+}
+
+.btn-primary{
+    background-color: rgb(200, 0, 255) !important;
+    border-radius: 2rem;
+}

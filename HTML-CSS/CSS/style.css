@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+/*==============================
+---- BASE -----
+================================*/
+:root{
+    --primary-color: #0aaa8d;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    background-image: url(../images/background-adare-restaurant.jpg);
+    background-size: cover;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    text-align: center;
+}
+
+/* --Header--*/
+.container .header{
+    text-align: center;
+    height: 15vh;
+}
+
+/* --Img Logo--*/
+.container .header .img-container{
+height: 12vh;
+display: flex;
+justify-content: center;
+}
+
+.container .header .img-container .img-logo{
+    height: 10vh;
+}
+
+/*--navbar*/
+
+.container .header .navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.container .header .navbar .nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.3s ease;
+}
+
+.container .header .navbar .nav-item:hover{
+    /* UTILIZACIÓN DE KEYFRAME
+    animation: navItemHover 0.3s forwards;*/
+            color: var(--primary-color);
+        font-size: 1.4em;
+        text-decoration: underline;
+}
+/*
+@keyframes navItemHover{
+  to {
+        color: var(--primary-color);
+        font-size: 1.4em;
+        text-decoration: underline;
+    }
+}
+    */
+
+/*--main content*/
+
+.container .main-container{
+    margin-top: 5vh;
+}
+
+.container .main-container .main-text-container{
+    color: white;
+    padding: 2rem;
+}
+.container .main-container .main-text-container .main-text{
+font-family:'Darumadrop One', sans-serif;
+font-size: 2em;
+transition: all 0.04s;
+}
+
+.container .main-container .main-text-container .main-text:hover{
+    text-shadow: 0.05em 0.05em #0aaa8d;
+}
+
+.container .main-container .main-text-container article{
+    margin: 0 auto;
+    max-width: 40vw;
+}
+
+.container .main-container .main-text-container article p{
+    color: rgb(218, 215, 215);
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.1em;
+} 
+
+.container .main-container .main-text-container article p strong a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.1em 0.1em var(--primary-color);
+
+}
+/*==============================
+----MAIN CONTENT MAPS-----
+================================*/
+.container .main-container .maps-container .maps{
+    height: 50vh;
+    width: 60vw;
+}
+
+/*--Footer*/
+
+
+.container .footer{
+    color: white;
+}
+
+.container .footer h4{
+    font-size: 1.1em;
+}
