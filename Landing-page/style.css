@@ -1,0 +1,17 @@
+html{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background-color: white;
+}
+
+.header .navbar{
+    background-color: rgb(116, 20, 20) !important;
+}
+
+.main-container .container-imagen img{
+    max-width: 95vw;
+    margin: 2%;
+}
